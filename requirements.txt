@@ -1,0 +1,11 @@
+# Keep this file ASCII-only: pip reads it with the console codepage on Windows.
+#
+# No local vector DB on purpose: BOMs are queried live from the PLM database,
+# so results are always current.
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+anthropic
+python-dotenv
+pyodbc
